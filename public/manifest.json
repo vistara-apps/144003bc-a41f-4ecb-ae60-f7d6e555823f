@@ -1,0 +1,14 @@
+{
+  "name": "Ship & Earn",
+  "description": "Ship & Earn is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://144003bc-a41f-4ecb-ae60-f7d6e555823f.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Ship & Earn",
+      "description": "Ship & Earn is a Base Mini App built with Zara.",
+      "url": "https://144003bc-a41f-4ecb-ae60-f7d6e555823f.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

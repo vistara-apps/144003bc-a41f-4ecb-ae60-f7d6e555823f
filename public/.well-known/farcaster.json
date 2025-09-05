@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Ship & Earn",
+    "subtitle": "Built with Zara",
+    "description": "Ship & Earn is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://144003bca41f4ecbae60f7d6e555823f-77dq.vercel.app",
+    "splashImageUrl": "https://144003bca41f4ecbae60f7d6e555823f-77dq.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://144003bca41f4ecbae60f7d6e555823f-77dq.vercel.app/image.png",
+    "tagline": "Ship & Earn",
+    "screenshotUrls": [
+      "https://144003bca41f4ecbae60f7d6e555823f-77dq.vercel.app/screenshot.png",
+      "https://144003bca41f4ecbae60f7d6e555823f-77dq.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://144003bca41f4ecbae60f7d6e555823f-77dq.vercel.app/api/webhook"
+  }
+}
