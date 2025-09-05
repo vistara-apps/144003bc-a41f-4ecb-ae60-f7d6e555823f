@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-purple-600 via-blue-600 to-purple-800 text-white min-h-screen;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20 rounded-lg shadow-card;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-white bg-opacity-20 text-white px-6 py-3 rounded-lg font-medium hover:bg-opacity-30 transition-all duration-200 backdrop-blur-sm;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-70 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent backdrop-blur-sm;
+  }
+  
+  .metric-card {
+    @apply glass-card p-4 hover:bg-opacity-15 transition-all duration-200;
+  }
+  
+  .bounty-card {
+    @apply glass-card p-6 hover:bg-opacity-15 transition-all duration-200 cursor-pointer;
+  }
+  
+  .status-badge {
+    @apply px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .status-open {
+    @apply bg-green-500 bg-opacity-20 text-green-300 border border-green-400 border-opacity-30;
+  }
+  
+  .status-in-progress {
+    @apply bg-yellow-500 bg-opacity-20 text-yellow-300 border border-yellow-400 border-opacity-30;
+  }
+  
+  .status-completed {
+    @apply bg-blue-500 bg-opacity-20 text-blue-300 border border-blue-400 border-opacity-30;
+  }
+  
+  .status-cancelled {
+    @apply bg-red-500 bg-opacity-20 text-red-300 border border-red-400 border-opacity-30;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
